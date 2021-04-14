@@ -1,0 +1,12 @@
+{
+    "name" : "vendor/php_mailer",
+    "description": "Cadastro com confirmação por e-mail",
+    "autoload" : {
+        "psr-4" : {
+            "App\\" : "App"
+        }
+    },
+    "require": {
+        "phpmailer/phpmailer": "v5.2.24"
+      }
+}
